@@ -1,5 +1,6 @@
-const { gql } = require('apollo-server');
+// schema doctor
 
+const { gql } = require('apollo-server');
 module.exports = gql`
     type Doctor {
         id: ID!
